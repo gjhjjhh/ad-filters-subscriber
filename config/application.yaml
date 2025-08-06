@@ -51,6 +51,10 @@ application:
         path: 'https://raw.githubusercontent.com/lingeringsound/10007/main/reward'
         type: hosts
 
+      - name: 'anti-ad'
+        path: 'https://anti-ad.net/domains.txt'
+        type: hosts
+
   #输出配置
   output:
     #文件头配置，将自动作为注释添加至每个规则文件开始
