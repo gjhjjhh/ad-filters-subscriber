@@ -17,12 +17,10 @@ application:
     domain-detect:
       enable: false   # 是否启用
       timeout: 3000   # 查询超时（毫秒）
-      concurrency: 5 # 并发查询数
+      concurrency: 10 # 并发查询数
       provider:       # 使用的 DNS 服务器，仅支持 IP，多个之间具备优先级; 为空则使用默认DNS
         - 223.5.5.5
         - 8.8.8.8
-        - 1.1.1.1
-        - 208.67.222.222
 
     # 排除指定内容
     # 在解析结束后，规则内容命中此列表将直接认定为无效
@@ -47,6 +45,10 @@ application:
   
       - name: 'qq5460168（国内规则聚合）'
         path: 'https://raw.githubusercontent.com/qq5460168/666/refs/heads/master/hosts.txt'
+        type: hosts
+
+      - name: 'lingeringsound'
+        path: 'https://raw.githubusercontent.com/lingeringsound/10007/main/reward'
         type: hosts
 
   #输出配置
