@@ -53,7 +53,7 @@ application:
 
       - name: 'anti-ad'
         path: 'https://anti-ad.net/domains.txt'
-        type: hosts
+        type: easylist
 
   #输出配置
   output:
