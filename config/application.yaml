@@ -47,13 +47,9 @@ application:
         path: 'https://raw.githubusercontent.com/qq5460168/666/refs/heads/master/hosts.txt'
         type: hosts
 
-      - name: 'lingeringsound'
-        path: 'https://raw.githubusercontent.com/lingeringsound/10007/main/reward'
+      - name: '自用国外域名'
+        path: 'https://raw.githubusercontent.com/gjhjjhh/hosts/refs/heads/main/filtered_hosts.txt'
         type: hosts
-
-      - name: 'anti-ad'
-        path: 'https://anti-ad.net/domains.txt'
-        type: easylist
 
   #输出配置
   output:
